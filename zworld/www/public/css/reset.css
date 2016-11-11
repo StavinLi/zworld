@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+img{
+	border: none;
+}
+body{
+	width: 1349px;
+	font: normal normal 12px "微软雅黑","arial black" ;
+	margin: 0 auto;
+}
+iframe{
+	display: block;
+	border: none;
+}
+input:focus{
+	outline: none;
+}

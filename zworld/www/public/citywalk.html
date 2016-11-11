@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>citywalk</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/citywalk.css"/>
+		<script src="js/lib/require.js" data-main = "js/commons.js"></script>
+	</head>
+	<body>
+		<header>
+			<img src="images/header_first.gif" alt="" />
+			<div id="delete"></div>
+			<div id="nav">
+				<ul>
+					<a href="#"><img src="images/logo_116x36.png" alt="" id="log"/></a>
+					<li><a href="#">目的地</a></li>
+					<li><a href="#">锦囊</a></li>
+					<li><a href="#">行程助手</a></li>
+					<li><a href="#">社区<img src="images/xia.gif" alt="" /></a></li>
+					<li id="super"><a href="#">最世界·自由行</a></li>
+					<li><a href="#">机票</a></li>
+					<li><a href="#">酒店</a></li>
+					<li><a href="#">预订<img src="images/xia.gif" alt="" /></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				<div class="right">
+					<img src="images/search_bg.gif" alt="" />
+					<a href="#" ><input type="text" id="keyword"/><img src="images/search-icon.png" alt="" id="search_icon"/></a>
+					<a href="#"><img src="images/qq.jpg"/></a>
+					<a href="#"><img src="images/weibo.gif"/></a>
+					<a href="#"><img src="images/wechat.jpg"/></a>
+					<a href="#">注册</a>
+					<a href="#">登录</a>
+				</div>
+				<div id="searchBox"></div>
+				
+			</div>
+		</header>
+		<!--搜索栏-->
+		<div id="search">
+			<a href="#"><img src="images/head-logo.png"/></a>
+			<div class="center">
+				<input type="image" src="images/citywalk_search.gif"/>
+				<input type="text" placeholder="搜索国家、城市、产品"/>
+			</div>
+			<ul>
+				<li><a href="#">我的订单</a></li>
+				<li><a href="#">我的收藏</a></li>
+			</ul>
+		</div>
+		<div style="clear: both;"></div>
+		<!--导航栏-->
+		<nav>
+			<ul>
+				<li id="first"><a href="#">热门目的地</a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<li><a href="#" class="ltitle"></a></li>
+				<img src="images/wanletag.gif"/>
+				<img src="images/icon.gif" alt="" />
+			</ul>
+		</nav>
+		<!--广告栏-->
+		<div id="banner"></div>
+		<!--主体-->	
+		<div id="main">
+			<div id="place">
+				<ul>
+					<li>所在城市</li>
+					<li><a href="#">全部</a></li>
+					<li><a href="#">上海</a></li>
+					<li><a href="#">北京</a></li>
+					<li><a href="#">京都</a></li>
+					<li><a href="#">广州</a></li>
+					<li><a href="#">东京</a></li>
+					<li><a href="#">布拉格</a></li>
+					<li><a href="#">巴塞罗那</a></li>
+					<li><a href="#">纽约</a></li>
+					<li><a href="#">巴黎</a></li>
+					<li><a href="#">汉堡</a></li>
+					<li><a href="#">马德里<a></li>
+					<li><a href="#">米兰</a></li>
+					<li><a href="#">佛罗伦萨</a></li>
+					<li><a href="#">台北</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">博洛尼亚</a></li>
+					<li><a href="#">伦敦</a></li>
+				</ul>
+			</div>
+			<div id="sell">
+				<ul>
+					<li>综合排名</li>
+					<li>销量<img src="images/sell_bg.png" alt="" /></li>
+					<li><input type="checkbox" />今日新品</li>
+				</ul>
+			</div>
+			<div id="letusgo">
+				<ul>
+					<li class="go1">
+						<img src="" class="imgurl"/>
+						<p><span class="address"></span><span class="browseCount"></span><span class="soldCount"></span> </p>
+						<h3><a href="#" class="title"></a></h3>
+						<div class="introduce">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<p><span class="oldPrice"></span><span class="newPrice"></span>元起</p>
+							<a href="#">立即预定</a>
+						</div>
+					</li>
+					<li class="go1">
+						<img src="" class="imgurl"/>
+						<p><span class="address"></span><span class="browseCount"></span><span class="soldCount"></span> </p>
+						<h3><a href="#" class="title"></a></h3>
+						<div class="introduce">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<p><span class="oldPrice"></span><span class="newPrice"></span>元起</p>
+							<a href="#">立即预定</a>
+						</div>
+					</li>
+					<li class="go1">
+						<img src="" class="imgurl"/>
+						<p><span class="address"></span><span class="browseCount"></span><span class="soldCount"></span> </p>
+						<h3><a href="#" class="title"></a></h3>
+						<div class="introduce">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<p><span class="oldPrice"></span><span class="newPrice"></span>元起</p>
+							<a href="#">立即预定</a>
+						</div>
+					</li>
+					<li style="display: none;" class="go2">
+						<img src="" class="imgurl"/>
+						<p><span class="address"></span><span class="browseCount"></span><span class="soldCount"></span> </p>
+						<h3><a href="#" class="title"></a></h3>
+						<div class="introduce">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<p><span class="oldPrice"></span><span class="newPrice"></span>元起</p>
+							<a href="#">立即预定</a>
+						</div>
+					</li>
+					<li style="display: none;" class="go2">
+						<img src="" class="imgurl"/>
+						<p><span class="address"></span><span class="browseCount"></span><span class="soldCount"></span> </p>
+						<h3><a href="#" class="title"></a></h3>
+						<div class="introduce">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<p><span class="oldPrice"></span><span class="newPrice"></span>元起</p>
+							<a href="#">立即预定</a>
+						</div>
+					</li>
+					<li style="display: none;" class="go2">
+						<img src="" class="imgurl"/>
+						<p><span class="address"></span><span class="browseCount"></span><span class="soldCount"></span> </p>
+						<h3><a href="#" class="title"></a></h3>
+						<div class="introduce">
+							<ul >
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<p><span class="oldPrice"></span><span class="newPrice"></span>元起</p>
+							<a href="#">立即预定</a>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+			<div id="page">
+				<p><a href="#" id="up" style="display: none">上一页</a><a href="#" id="page1">1</a><a href="#" id="page2">2</a><a href="#" id="down">下一页</a></p>
+			</div>
+		</div>
+	
+		<!--页脚-->
+		<div id="bottom">
+			<ul>
+				<li><a href="#">机酒自由行</a></li>
+				<li><a href="#">城市玩乐</a></li>
+				<li><a href="#">签证</a></li>
+				<li><a href="#">租车</a></li>
+				<li><a href="#">邮轮</a></li>
+				<li><a href="#">海岛游</a></li>
+				<li><a href="#">限时特卖</a></li>
+				<li><a href="#">特色线路</a></li>
+				<li><a href="#">CityWalk</a></li>
+			</ul>
+			<ul>
+				<li>
+					<span></span>
+					<h3>专业保证</h3>
+					<p>我们手机穷游er的真实诉求，也找寻全世界最独特的旅游目的地，让更多的穷游er轻松出行</p>
+				</li>
+				<li>
+					<span></span>
+					<h3>多重审核</h3>
+					<p>对旅游产品供应商严格筛选，资质认证层层把关，为穷游er精挑细选最值得信赖的旅游产品</p>
+				</li>
+				<li>
+					<span></span>
+					<h3>安心陪护</h3>
+					<p>对所有穷游er的购买进行跟踪服务以及质量监控，有效投诉先行赔付，出现任何问题负责到底</p>
+				</li>
+			</ul>
+		</div>
+		<!--页脚-->
+		<div id="footer">
+			<div id="footer_top">
+				<img src="images/foot-logo.png" alt="" />
+				<p>最世界·自由行——从一张机票、一家酒店的订购，到一次暖心的接机服务、一张轻松融<br />入当地的交通卡，让我们带你探索这个世界</p>
+				<div>
+					<p>关注我们</p>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<p>
+				<a href="#" id="first">关于最世界·自由行</a>|<a href="#">服务与隐私</a>|<a href="#">联系我们</a>|<a href="#">旅游度假资质</a>|<a href="#">营业执照</a>|<a href="#">投诉建议</a>
+			</p>
+			<p>2004-2016&copy;穷游网™qyer.com All rights reserved. Version v5.57 京ICP备 12003524号 京公网安备 11010502023470  京ICP证140673号</p>
+			<p>友情链接：<a href="#">美国旅游</a><a href="#">房车租赁</a><a href="#">旅行工具</a><a href="#">美规车网</a></p>
+		</div>
+	</body>
+</html>
